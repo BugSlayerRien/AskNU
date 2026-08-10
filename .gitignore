@@ -1,0 +1,24 @@
+# Safety net at repo root — secrets must never be committed
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Flutter / Dart build artifacts (if created at unexpected paths)
+**/.dart_tool/
+**/build/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+
+# Android signing / local machine paths
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
