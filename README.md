@@ -11,7 +11,7 @@ A Flutter app that analyzes images with Google Gemini AI. Pick a photo from your
 
 ## Project structure
 
-```
+```--------
 AskNU/
 ├── asknu/                 # Flutter app
 │   ├── lib/
