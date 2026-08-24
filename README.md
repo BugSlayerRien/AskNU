@@ -3,7 +3,7 @@
 A Flutter app that analyzes images with Google Gemini AI. Pick a photo from your gallery or camera, send it to Gemini, and get a text description of what’s in the image.
 ------
 ## Features
-----
+---------
 - Pick images from gallery or camera
 - Analyze images with Gemini (`gemini-1.5-flash-latest`)
 - View AI-generated descriptions in the app
