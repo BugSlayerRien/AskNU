@@ -9,6 +9,7 @@ A Flutter app that analyzes images with Google Gemini AI. Pick a photo from your
 - View AI-generated descriptions in the app
 - API key loaded from a local `.env` file (not committed to Git)
 
+
 ## Project structure
 
 ```--------
@@ -87,6 +88,7 @@ flutter run
 - [flutter_dotenv](https://pub.dev/packages/flutter_dotenv) — local secrets
 
 ## Security notes
+.
 
 - Never commit `.env` or real API keys
 - If a key is exposed, revoke it in [Google AI Studio](https://aistudio.google.com/apikey) and create a new one
