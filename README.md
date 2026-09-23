@@ -8,7 +8,7 @@ A Flutter app that analyzes images with Google Gemini AI. Pick a photo from your
 - Analyze images with Gemini (`gemini-1.5-flash-latest`)
 - View AI-generated descriptions in the app
 - API key loaded from a local `.env` file (not committed to Git)
-
+consistency II :)
 
 ## Project structure
 
