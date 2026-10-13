@@ -1,0 +1,64 @@
+DFD Level 1 Instructions (AskNU System)
+
+Goal
+- Show external entities, processes, data stores, and data flows.
+- Include a short legend/assumptions section.
+
+Scope (Level 1)
+- Decompose the system into 5-8 major processes.
+- Do not include UI screens; focus on business processes and data movement.
+
+Step 1: Identify External Entities
+- Student/User
+- Admin/Registrar Staff
+- Firebase Auth
+- AI Provider (Gemini or custom endpoint)
+- Firebase Cloud Messaging (if used for notifications)
+
+Step 2: Define Core Processes (number them)
+Example process list:
+1.0 Authentication & Account Management
+2.0 FAQ Search and Retrieval
+3.0 Document Request Processing
+4.0 Notifications Management
+5.0 Admin FAQ Management
+6.0 Analytics & Audit Logging
+7.0 AI Answer Fallback (when FAQ not found)
+
+Step 3: Define Data Stores
+- D1 Users
+- D2 FAQs
+- D3 Document Requests
+- D4 Notifications
+- D5 Audit Logs
+- D6 User Activity
+- D7 Analytics
+- D8 App Config (AI settings)
+
+Step 4: Map Data Flows
+- Student/User -> 1.0 Authentication (credentials)
+- 1.0 -> Firebase Auth (verify) -> 1.0 (auth result) -> D1 Users (profile data)
+- Student/User -> 2.0 FAQ Search (query) -> D2 FAQs (read) -> 2.0 -> Student/User (FAQ answer)
+- If no FAQ match: 2.0 -> 7.0 AI Answer Fallback -> AI Provider -> 7.0 -> Student/User (AI response)
+- Student/User -> 3.0 Document Request (request data) -> D3 Document Requests (create/update)
+- 3.0 -> D4 Notifications (status update) -> Student/User
+- Admin/Staff -> 5.0 Admin FAQ Management -> D2 FAQs (create/update/delete)
+- Admin/Staff -> 4.0 Notifications Management -> D4 Notifications (create/send)
+- All processes -> 6.0 Analytics & Audit Logging -> D5 Audit Logs, D6 User Activity, D7 Analytics
+- 7.0 AI Answer Fallback -> D8 App Config (read API settings)
+
+Step 5: Add Legend / Assumptions
+Legend example:
+- External Entity: rectangle
+- Process: circle or rounded rectangle with number
+- Data Store: open-ended rectangle
+- Data Flow: arrow
+
+Assumptions example:
+- AI is used only when FAQ search yields no matches.
+- Analytics events are aggregated daily in D7.
+- Notifications are stored in D4 and delivered to users through the app.
+
+Output Format
+- One diagram showing entities, processes, data stores, and flows.
+- Keep labels concise but specific (e.g., "FAQ query", "Document status update").

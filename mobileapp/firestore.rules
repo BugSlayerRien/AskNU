@@ -1,0 +1,67 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        request.auth.token.admin == true ||
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin'
+      );
+    }
+
+    match /users/{userId} {
+      allow read, write: if isAdmin() || (isSignedIn() && request.auth.uid == userId);
+    }
+
+    match /users/{userId}/conversations/{conversationId} {
+      allow read, write: if isSignedIn() && request.auth.uid == userId;
+    }
+
+    match /faqs/{faqId} {
+      allow read: if true;
+      allow create, delete: if isAdmin();
+      allow update: if isAdmin() || (
+        isSignedIn() &&
+        request.resource.data.diff(resource.data).changedKeys().hasOnly([
+          'summary',
+          'summarySource',
+          'summaryUpdatedAt',
+          'askedCount'
+        ])
+      );
+    }
+
+    match /app_config/{id} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    match /notifications/{id} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == request.resource.data.userId);
+      allow update, delete: if isAdmin();
+    }
+
+    match /document_requests/{id} {
+      allow read: if isAdmin() || (isSignedIn() && request.auth.uid == resource.data.userId);
+      allow create: if isSignedIn() && request.auth.uid == request.resource.data.userId;
+      allow update, delete: if isAdmin();
+    }
+
+    match /audit_logs/{id} {
+      allow read, write: if isAdmin();
+    }
+
+    match /user_activity/{id} {
+      allow read, write: if isAdmin();
+    }
+
+    match /offices/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

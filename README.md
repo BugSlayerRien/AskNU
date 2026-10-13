@@ -1,98 +1,85 @@
 # AskNU
 
-A Flutter app that analyzes images with Google Gemini AI. Pick a photo from your gallery or camera, send it to Gemini, and get a text description of what’s in the image.
-------------------
+A student help app for **National University Baliwag**. Students search the school's FAQs, browse offices and categories, request documents, and ask an AI assistant when the FAQs don't have the answer. Registrar and admin staff manage the content through a built-in admin dashboard.
+
+Built with Flutter and Firebase.
+
 ## Features
-------------------
-- Pick images from gallery or camera
-- Analyze images with Gemini (`gemini-1.5-flash-latest`)
-- View AI-generated descriptions in the app
-- API key loaded from a local `.env` file (not committed to Git)
-consistency II :)
+
+**Students**
+- Sign up and sign in with email or Google, with password reset
+- Search and browse FAQs by category, with bookmarks and a short AI-generated summary on each FAQ
+- AI chat assistant that answers from the FAQ and handbook content, with saved conversations
+- Office directory (ITSO and others) with each office's role and details
+- Document request tracking
+- Push notifications and an in-app notification center
+- Profile and settings
+
+**Admins**
+- Manage FAQs, users and notifications
+- Analytics, user activity and audit logs
+- App settings, including the AI provider configuration
+
+## Tech stack
+
+- Flutter (Dart 3.10+)
+- Firebase Auth, Cloud Firestore, Storage, Cloud Messaging, Analytics, Crashlytics
+- Google Gemini (or a custom chat endpoint) for AI answers
+- Node.js scripts for admin claims and for seeding FAQs and offices
 
 ## Project structure
 
-```--------
-AskNU/
-├── asknu/                 # Flutter app
-│   ├── lib/
-│   │   ├── main.dart
-│   │   ├── pages/         # Image analyzer UI
-│   │   ├── services/      # Gemini API client
-│   │   └── models/        # Response models
-│   ├── .env.example       # Template for your API key
-│   └── pubspec.yaml
-└── README.md
 ```
-
-## Prerequisites
-
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (3.x)
-- A [Google AI Studio](https://aistudio.google.com/apikey) API key
+AskNU/
+└── mobileapp/
+    ├── lib/
+    │   ├── screens/       # Student screens and admin/ dashboard
+    │   ├── services/      # Auth, FAQs, AI chat, analytics, audit
+    │   ├── models/
+    │   └── widgets/
+    ├── assets/            # FAQ data, student handbook text, fonts, logo
+    ├── admin/             # Script to grant admin access
+    ├── scripts/           # FAQ import and office seeding
+    └── firestore.rules
+```
 
 ## Setup
 
-1. Clone the repository:
+You need the [Flutter SDK](https://docs.flutter.dev/get-started/install) and your own Firebase project.
+
+1. Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/BugSlayerRien/AskNU.git
-cd AskNU/asknu
-```
-
-2. Install dependencies:
-
-```bash
+cd AskNU/mobileapp
 flutter pub get
 ```
 
-3. Create your local env file (do **not** commit this):
+2. Connect your Firebase project. This generates `lib/firebase_options.dart` and `android/app/google-services.json`, which are gitignored:
 
 ```bash
-cp .env.example .env
+flutterfire configure
 ```
 
-4. Open `.env` and add your key:
+3. Deploy the Firestore rules in `firestore.rules`.
 
-```
-GEMINI_API_KEY=your_api_key_here
-```
+4. Create the AI config document `app_config/ai` in Firestore with `provider`, `model` and `apiKey` (or `chatEndpoint`).
 
-5. Make sure `.env` is listed as an asset in `pubspec.yaml`:
-
-```yaml
-flutter:
-  uses-material-design: true
-  assets:
-    - .env
-```
-
-6. Run the app:
+5. Run the app:
 
 ```bash
 flutter run
 ```
 
-## Environment variables
+## Admin access
 
-| Variable         | Required | Description              |
-|------------------|----------|--------------------------|
-| `GEMINI_API_KEY` | Yes      | Google Gemini API key    |
+Grant admin rights with a Firebase service account key stored **outside the repo**:
 
-`.env` is ignored by Git. Only `.env.example` is tracked as a template.
-
-## Tech stack
-
-- Flutter / Dart
-- [http](https://pub.dev/packages/http) — Gemini API requests
-- [image_picker](https://pub.dev/packages/image_picker) — gallery / camera
-- [flutter_dotenv](https://pub.dev/packages/flutter_dotenv) — local secrets
+```bash
+GOOGLE_APPLICATION_CREDENTIALS=path/to/serviceAccountKey.json node admin/set_admin_claims.js --email user@example.com
+```
 
 ## Security notes
-.
 
-- Never commit `.env` or real API keys
-- If a key is exposed, revoke it in [Google AI Studio](https://aistudio.google.com/apikey) and create a new one
-
-## License
-
-This project is for personal / educational use.
+- Service account keys, `google-services.json`, `firebase_options.dart` and `.env` files are gitignored. Never commit them.
+- If a key is exposed, revoke it in the Firebase or Google Cloud console and create a new one.

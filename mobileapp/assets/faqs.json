@@ -1,0 +1,564 @@
+﻿[
+    {
+        "id":  "faq_001",
+        "category":  "Enrollment",
+        "question":  "How do I enroll in classes for the semester?",
+        "answer":  "Log in to the student portal, go to Registration \u003e Enroll, select your subjects, confirm your schedule, and finalize payment if required. If you have any registration holds, contact the registrar to resolve them before enrolling.",
+        "tags":  [
+                     "enroll",
+                     "registration",
+                     "classes",
+                     "how to enroll"
+                 ],
+        "description":  "Log in to the student portal, go to Registration \u003e Enroll, select your subjects, confirm your schedule, and finalize payment if required."
+    },
+    {
+        "id":  "faq_002",
+        "category":  "Enrollment",
+        "question":  "How can I drop a subject?",
+        "answer":  "Open the student portal, navigate to Registration \u003e Drop/Add, select the subject to drop, and submit the form before the published deadline. Some drops require adviser approval or an online petition; check the deadline and refund policy.",
+        "tags":  [
+                     "drop",
+                     "add",
+                     "registration",
+                     "withdraw"
+                 ],
+        "description":  "Open the student portal, navigate to Registration \u003e Drop/Add, select the subject to drop, and submit the form before the published deadline."
+    },
+    {
+        "id":  "faq_003",
+        "category":  "Grading",
+        "question":  "When and how are grades posted?",
+        "answer":  "Grades are usually posted in the student portal within two weeks after the grading period ends. Instructors must submit grades to the registrar; if you don\u0027t see your grade, contact your course instructor or the registrar\u0027s office.",
+        "tags":  [
+                     "grades",
+                     "grading",
+                     "grade posting"
+                 ],
+        "description":  "Grades are usually posted in the student portal within two weeks after the grading period ends."
+    },
+    {
+        "id":  "faq_004",
+        "category":  "Documents",
+        "question":  "How do I request an official transcript?",
+        "answer":  "Visit the Registrar\u0027s Request page and complete the transcript request form. Choose delivery method (electronic or physical), pay any applicable fees, and allow the stated processing time. For urgent requests, contact the registrar directly.",
+        "tags":  [
+                     "transcript",
+                     "documents",
+                     "records"
+                 ],
+        "description":  "Visit the Registrar\u0027s Request page and complete the transcript request form."
+    },
+    {
+        "id":  "faq_005",
+        "category":  "Policies",
+        "question":  "What is the late enrollment policy?",
+        "answer":  "Late enrollment may be permitted with a late fee and requires approval from the department. Check the academic calendar for late enrollment deadlines and consult the registrar for details on penalties and necessary approvals.",
+        "tags":  [
+                     "policy",
+                     "enrollment",
+                     "late enrollment"
+                 ],
+        "description":  "Late enrollment may be permitted with a late fee and requires approval from the department."
+    },
+    {
+        "id":  "faq_006",
+        "category":  "Financial",
+        "question":  "How do I apply for tuition assistance or scholarships?",
+        "answer":  "Visit the Financial Aid Office website to view available grants and scholarships, complete the application forms, and submit supporting documents by the posted deadlines. Contact Financial Aid for guidance on eligibility and required documents.",
+        "tags":  [
+                     "financial",
+                     "aid",
+                     "scholarship",
+                     "tuition"
+                 ],
+        "description":  "Visit the Financial Aid Office website to view available grants and scholarships, complete the application forms, and submit supporting documents by the posted deadlines."
+    },
+    {
+        "id":  "faq_007",
+        "category":  "Student Account",
+        "question":  "What should I do if I have a hold on my account?",
+        "answer":  "Account holds appear in the student portal with the office name and reason. Click the hold to view instructions and contact the listed office to resolve the issue (e.g., unpaid fees, missing documents, disciplinary holds).",
+        "tags":  [
+                     "hold",
+                     "account",
+                     "registration hold"
+                 ],
+        "description":  "Account holds appear in the student portal with the office name and reason."
+    },
+    {
+        "id":  "faq_008",
+        "category":  "Payments",
+        "question":  "How can I pay my tuition and fees?",
+        "answer":  "Log in to the student portal and go to Billing/Payments. You can pay online with a credit card, bank transfer, or set up installment plans where available. For alternative payment methods, contact the bursar\u0027s office.",
+        "tags":  [
+                     "payment",
+                     "tuition",
+                     "fees",
+                     "bursar"
+                 ],
+        "description":  "Log in to the student portal and go to Billing/Payments."
+    },
+    {
+        "id":  "faq_009",
+        "category":  "ID \u0026 Access",
+        "question":  "How do I get or replace my student ID card?",
+        "answer":  "Visit the Student Services or ID office with a government-issued ID to request or replace your student card. Replacement fees may apply; check the office\u0027s hours and processing times.",
+        "tags":  [
+                     "id",
+                     "student id",
+                     "card"
+                 ],
+        "description":  "Visit the Student Services or ID office with a government-issued ID to request or replace your student card."
+    },
+    {
+        "id":  "faq_010",
+        "category":  "Library",
+        "question":  "How do I access library resources off-campus?",
+        "answer":  "Use your student credentials to log in to the library portal. Remote access may require VPN or single sign-on depending on the resource. Contact the library help desk for step-by-step access instructions.",
+        "tags":  [
+                     "library",
+                     "resources",
+                     "off-campus"
+                 ],
+        "description":  "Use your student credentials to log in to the library portal."
+    },
+    {
+        "id":  "faq_011",
+        "category":  "Academic",
+        "question":  "How do I apply for a leave of absence?",
+        "answer":  "Contact your academic adviser and the registrar to begin a leave of absence application. Complete any required forms and submit documentation. Leaves may affect financial aid and enrollment status.",
+        "tags":  [
+                     "leave",
+                     "absence",
+                     "withdrawal"
+                 ],
+        "description":  "Contact your academic adviser and the registrar to begin a leave of absence application."
+    },
+    {
+        "id":  "faq_012",
+        "category":  "Grading",
+        "question":  "How do I appeal a grade?",
+        "answer":  "Review the grade appeal policy in the student handbook, gather supporting materials, and contact your instructor to discuss the grade. If unresolved, follow the formal appeal steps with your department and the academic affairs office.",
+        "tags":  [
+                     "grade appeal",
+                     "appeal",
+                     "grading"
+                 ],
+        "description":  "Review the grade appeal policy in the student handbook, gather supporting materials, and contact your instructor to discuss the grade."
+    },
+    {
+        "id":  "faq_013",
+        "category":  "Graduation",
+        "question":  "What are the graduation requirements?",
+        "answer":  "Graduation requirements include completion of all required coursework, minimum GPA, residency/credit requirements, and submission of an application for graduation by the deadline. Check your program\u0027s requirements and consult your adviser.",
+        "tags":  [
+                     "graduation",
+                     "requirements",
+                     "degree"
+                 ],
+        "description":  "Graduation requirements include completion of all required coursework, minimum GPA, residency/credit requirements, and submission of an application for graduation by the deadline."
+    },
+    {
+        "id":  "faq_014",
+        "category":  "Transfers",
+        "question":  "Can I transfer credits from another institution?",
+        "answer":  "Transfer credit evaluation is handled by the registrar; submit official transcripts and course descriptions. Transferability depends on course equivalency and program policies. Contact the registrar for evaluation timelines.",
+        "tags":  [
+                     "transfer",
+                     "credits",
+                     "transfers"
+                 ],
+        "description":  "Transfer credit evaluation is handled by the registrar; submit official transcripts and course descriptions."
+    },
+    {
+        "id":  "faq_015",
+        "category":  "Attendance",
+        "question":  "What is the attendance policy?",
+        "answer":  "Attendance policies vary by course; check the course syllabus or contact the instructor. Excessive absences may affect grades or course standing. Some programs require mandatory attendance for specific activities.",
+        "tags":  [
+                     "attendance",
+                     "policy",
+                     "syllabus"
+                 ],
+        "description":  "Attendance policies vary by course; check the course syllabus or contact the instructor."
+    },
+    {
+        "id":  "faq_016",
+        "category":  "Policies",
+        "question":  "What is the academic integrity policy?",
+        "answer":  "All submitted work must be your own. You must properly cite sources, including ideas from other people or prior work, and use quotation marks for direct quotes. Reusing the same work in multiple courses requires written permission from all instructors. Copying programs or substantially deriving them from others is academic dishonesty.",
+        "tags":  [
+                     "academic integrity",
+                     "citation",
+                     "plagiarism",
+                     "honesty"
+                 ],
+        "description":  "All submitted work must be your own."
+    },
+    {
+        "id":  "faq_017",
+        "category":  "ID \u0026 Access",
+        "question":  "What are the rules for student IDs?",
+        "answer":  "You are issued a student ID upon enrollment and must wear it with the official ID lace inside campus. The ID is valid only while enrolled, and you must surrender it when requested by authorities.",
+        "tags":  [
+                     "student id",
+                     "campus access",
+                     "rules"
+                 ],
+        "description":  "You are issued a student ID upon enrollment and must wear it with the official ID lace inside campus."
+    },
+    {
+        "id":  "faq_018",
+        "category":  "ID \u0026 Access",
+        "question":  "How do I replace a lost student ID?",
+        "answer":  "Report the loss to the attending security personnel and present your Certificate of Registration (COR). Secure an Affidavit of Loss, have it verified by the Student Discipline Office, request a temporary pass, pay the replacement fee at the Credit and Collection Office, then present the Affidavit of Loss and official receipt to the Information Technology Services Office for ID processing.",
+        "tags":  [
+                     "lost id",
+                     "replacement",
+                     "cor",
+                     "it services"
+                 ],
+        "description":  "Report the loss to the attending security personnel and present your Certificate of Registration (COR)."
+    },
+    {
+        "id":  "faq_019",
+        "category":  "ID \u0026 Access",
+        "question":  "What if I forget to bring my student ID?",
+        "answer":  "Inform security and present your COR for logging, then request a temporary pass from the Student Discipline Officer. Repeated offenses within the same term can lead to a violation slip, and a third offense is treated as a major offense.",
+        "tags":  [
+                     "forgot id",
+                     "temporary pass",
+                     "discipline"
+                 ],
+        "description":  "Inform security and present your COR for logging, then request a temporary pass from the Student Discipline Officer."
+    },
+    {
+        "id":  "faq_020",
+        "category":  "Uniform",
+        "question":  "What is the prescribed uniform for most programs?",
+        "answer":  "For most programs (except Psychology, Tourism, and Hospitality Management), the uniform is: Maleâ€”navy blue slacks, light blue polo with NU logo, black leather shoes and socks. Femaleâ€”navy blue slacks or skirt, light blue blouse with NU logo, black leather shoes and socks. Tourism and Hospitality Management follow their collegeâ€™s uniform guidelines.",
+        "tags":  [
+                     "uniform",
+                     "dress code",
+                     "nu logo"
+                 ],
+        "description":  "For most programs (except Psychology, Tourism, and Hospitality Management), the uniform is: Maleâ€”navy blue slacks, light blue polo with NU logo, black leather shoes and socks."
+    },
+    {
+        "id":  "faq_021",
+        "category":  "Uniform",
+        "question":  "When can I wear PE/NSTP uniform or washday attire?",
+        "answer":  "Students must wear the prescribed uniform on campus Mondayâ€“Friday. PE/NSTP uniforms are allowed only during those classes, or if your only/first class is PE/NSTP (you must change for later classes). Wednesdays and Saturdays are washdays; prescribed uniform isnâ€™t required unless instructed by the college. Prohibited attire includes shorts, ripped jeans, sleeveless/tube tops, plunging necklines, miniskirts, slippers, seeâ€‘through or revealing clothing, and crossâ€‘dressing. Entry without uniform for meetings requires a prior letter to the Student Discipline Office.",
+        "tags":  [
+                     "washday",
+                     "pe uniform",
+                     "nstp",
+                     "dress code"
+                 ],
+        "description":  "Students must wear the prescribed uniform on campus Mondayâ€“Friday."
+    },
+    {
+        "id":  "faq_022",
+        "category":  "Enrollment",
+        "question":  "What is the difference between registration and enrollment?",
+        "answer":  "Registration reserves seats for the next term and is usually done after midterm until before finals. Enrollment completes registration and grants full student privileges; it requires payment of matriculation fees, issuance of the COR, ID validation, and compliance with CHED/TESDA policies.",
+        "tags":  [
+                     "registration",
+                     "enrollment",
+                     "cor",
+                     "nuis"
+                 ],
+        "description":  "Registration reserves seats for the next term and is usually done after midterm until before finals."
+    },
+    {
+        "id":  "faq_023",
+        "category":  "Enrollment",
+        "question":  "How do I register or enroll using NUIS?",
+        "answer":  "During the registration period, log in to NUIS and use the Online Class Registration module. If you missed registration, use the Online Enrollment module during the enrollment period.",
+        "tags":  [
+                     "nuis",
+                     "online registration",
+                     "online enrollment"
+                 ],
+        "description":  "During the registration period, log in to NUIS and use the Online Class Registration module."
+    },
+    {
+        "id":  "faq_024",
+        "category":  "Enrollment",
+        "question":  "When am I officially enrolled?",
+        "answer":  "You are officially enrolled once you receive your COR (emailed for new students or via NUIS for continuing students) and your University ID is validated by ITSO. Registration alone does not guarantee enrollment or class participation.",
+        "tags":  [
+                     "officially enrolled",
+                     "cor",
+                     "itso"
+                 ],
+        "description":  "You are officially enrolled once you receive your COR (emailed for new students or via NUIS for continuing students) and your University ID is validated by ITSO."
+    },
+    {
+        "id":  "faq_025",
+        "category":  "Enrollment",
+        "question":  "What is the late enrollment rule and fee?",
+        "answer":  "Late enrollees have two weeks from the first day of classes to process enrollment. A late enrollment fee of Php 200.00 is imposed on students who enroll after the first day of classes.",
+        "tags":  [
+                     "late enrollment",
+                     "fee",
+                     "deadline"
+                 ],
+        "description":  "Late enrollees have two weeks from the first day of classes to process enrollment."
+    },
+    {
+        "id":  "faq_026",
+        "category":  "Transfers",
+        "question":  "What is crossâ€‘enrollment and what types are available?",
+        "answer":  "Crossâ€‘enrollment means taking courses in another HEI or NU campus. Types include: Inbound Crossâ€‘Enrollment (students from other HEIs taking up to two NU courses), Outbound Crossâ€‘Enrollment (NU graduating students taking up to two courses in one other HEI), and Campus Crossâ€‘Enrollment (NU graduating students taking up to two courses at another NU campus).",
+        "tags":  [
+                     "cross enrollment",
+                     "inbound",
+                     "outbound",
+                     "campus"
+                 ],
+        "description":  "Crossâ€‘enrollment means taking courses in another HEI or NU campus."
+    },
+    {
+        "id":  "faq_027",
+        "category":  "Transfers",
+        "question":  "How do I apply for inbound crossâ€‘enrollment at NU?",
+        "answer":  "Apply via NU QUEST, upload the required credentials, follow the NU Quest Dashboard instructions, pay via NU Bills as indicated in your Assessment Form, and monitor your dashboard until you are officially enrolled.",
+        "tags":  [
+                     "inbound cross enrollment",
+                     "nu quest",
+                     "nu bills"
+                 ],
+        "description":  "Apply via NU QUEST, upload the required credentials, follow the NU Quest Dashboard instructions, pay via NU Bills as indicated in your Assessment Form, and monitor your dashboard until you are officially enrolled."
+    },
+    {
+        "id":  "faq_028",
+        "category":  "Transfers",
+        "question":  "What are the requirements for outbound crossâ€‘enrollment?",
+        "answer":  "Outbound crossâ€‘enrollment is for graduating NU students taking up to two courses at one other HEI when the course isnâ€™t offered at NU. You must submit a Crossâ€‘Enrollment Application Form to the Registrar for graduation status evaluation, secure Dean approval with the host schoolâ€™s academic calendar and course description, pay the processing fee, secure a permit, enroll at the host school, and submit proof of enrollment by midterm and the final Certificate of Grade after the term.",
+        "tags":  [
+                     "outbound cross enrollment",
+                     "graduating",
+                     "permit"
+                 ],
+        "description":  "Outbound crossâ€‘enrollment is for graduating NU students taking up to two courses at one other HEI when the course isnâ€™t offered at NU."
+    },
+    {
+        "id":  "faq_029",
+        "category":  "Transfers",
+        "question":  "What are the requirements for campus crossâ€‘enrollment?",
+        "answer":  "Campus crossâ€‘enrollment is for graduating NU students taking up to two courses at another NU campus when the course isnâ€™t offered at the home campus. Submit the Crossâ€‘Enrollment Application Form to the Registrar for evaluation, pay the processing fee after Dean approval, secure the permit, submit proof of enrollment by midterm, and submit the final Certificate of Grade after the term.",
+        "tags":  [
+                     "campus cross enrollment",
+                     "nu campus",
+                     "permit"
+                 ],
+        "description":  "Campus crossâ€‘enrollment is for graduating NU students taking up to two courses at another NU campus when the course isnâ€™t offered at the home campus."
+    },
+    {
+        "id":  "faq_030",
+        "category":  "Grading",
+        "question":  "What is the NU grading scale?",
+        "answer":  "NU uses a gradeâ€‘point system: 4.0 (96â€“100), 3.5 (90â€“95), 3.0 (84â€“89), 2.5 (78â€“83), 2.0 (72â€“77), 1.5 (66â€“71), 1.0 (60â€“65), R (\u003c60 Repeat), 0.0 (Fail), Dr (Officially Dropped), Inc (Incomplete), P (\u003e=60 Pass for Bridging/Intervention), F (\u003c60 Fail for Bridging/Intervention).",
+        "tags":  [
+                     "grading",
+                     "grade points",
+                     "scale"
+                 ],
+        "description":  "NU uses a gradeâ€‘point system: 4.0 (96â€“100), 3.5 (90â€“95), 3.0 (84â€“89), 2.5 (78â€“83), 2.0 (72â€“77), 1.5 (66â€“71), 1.0 (60â€“65), R (\u003c60 Repeat), 0.0 (Fail), Dr (Officially Dropped), Inc (Incomplete), P (\u003e=60 Pass for Bridging/Intervention), F (\u003c60 Fail for Bridging/Intervention)."
+    },
+    {
+        "id":  "faq_031",
+        "category":  "Grading",
+        "question":  "What does an R grade mean?",
+        "answer":  "R means Repeat. Itâ€™s given to students who do not meet the 60% passing standard. It is not included in the GWA, but the student must reâ€‘enroll in the course.",
+        "tags":  [
+                     "repeat",
+                     "r grade",
+                     "gwa"
+                 ],
+        "description":  "R means Repeat."
+    },
+    {
+        "id":  "faq_032",
+        "category":  "Grading",
+        "question":  "How do I complete an Inc grade?",
+        "answer":  "Secure a Grade Completion Form from the Registrar or NUIS Registrar Manual Module, pay the processing fee, have the faculty complete and sign the form (with Dean endorsement), then submit the completed form and proof of payment to the Registrarâ€™s Office. If you miss the prescribed completion period, the Inc becomes an R and you must reâ€‘enroll.",
+        "tags":  [
+                     "incomplete",
+                     "grade completion",
+                     "registrar"
+                 ],
+        "description":  "Secure a Grade Completion Form from the Registrar or NUIS Registrar Manual Module, pay the processing fee, have the faculty complete and sign the form (with Dean endorsement), then submit the completed form and proof of payment to the Registrarâ€™s Office."
+    },
+    {
+        "id":  "faq_033",
+        "category":  "Grading",
+        "question":  "What does Dr mean on my grades?",
+        "answer":  "Dr means Officially Dropped. It is given to students who file a Load Revision Form to drop a course within the prescribed period.",
+        "tags":  [
+                     "dr",
+                     "officially dropped",
+                     "load revision"
+                 ],
+        "description":  "Dr means Officially Dropped."
+    },
+    {
+        "id":  "faq_034",
+        "category":  "Grading",
+        "question":  "Which grades are excluded from GWA computation?",
+        "answer":  "R, Inc, P, F, and NSTP grades are excluded from GWA computation. Starting AY 2023â€“2024, PATHFit course grades (MCFIT01Xâ€“MCFIT04X) are included in CGWA.",
+        "tags":  [
+                     "gwa",
+                     "cgwa",
+                     "pathfit",
+                     "nstp"
+                 ],
+        "description":  "R, Inc, P, F, and NSTP grades are excluded from GWA computation."
+    },
+    {
+        "id":  "faq_035",
+        "category":  "Academic",
+        "question":  "How do I shift to another program?",
+        "answer":  "Secure and complete a Shifting Form from the Registrar, get evaluation and acceptance from the previous and new College Deans, pay the processing fee, complete an interview with Guidance Services, then submit or email the form with proof of payment to the Registrarâ€™s Office using the required email format.",
+        "tags":  [
+                     "shifting",
+                     "program change",
+                     "registrar"
+                 ],
+        "description":  "Secure and complete a Shifting Form from the Registrar, get evaluation and acceptance from the previous and new College Deans, pay the processing fee, complete an interview with Guidance Services, then submit or email the form with proof of payment to the Registrarâ€™s Office using the required email format."
+    },
+    {
+        "id":  "faq_036",
+        "category":  "Academic",
+        "question":  "How do I apply for a Leave of Absence (LoA)?",
+        "answer":  "File a LoA request approved by your College Dean and processed at the Registrarâ€™s Office no later than the last day of late enrollment. Approved LoA is valid for up to three consecutive terms and must be renewed if needed. Students on LoA cannot study elsewhere without a Transfer Credential.",
+        "tags":  [
+                     "leave of absence",
+                     "loa",
+                     "registrar"
+                 ],
+        "description":  "File a LoA request approved by your College Dean and processed at the Registrarâ€™s Office no later than the last day of late enrollment."
+    },
+    {
+        "id":  "faq_037",
+        "category":  "Attendance",
+        "question":  "What are the attendance rules?",
+        "answer":  "Attendance in inâ€‘person and synchronous classes is required, and there are no excused absences. The maximum allowable absences are 20% of class sessions (3 meetings for onceâ€‘aâ€‘week classes, 6 meetings for twiceâ€‘aâ€‘week classes). Excessive absences result in a final grade of 0.0.",
+        "tags":  [
+                     "attendance",
+                     "absences",
+                     "0.0"
+                 ],
+        "description":  "Attendance in inâ€‘person and synchronous classes is required, and there are no excused absences."
+    },
+    {
+        "id":  "faq_038",
+        "category":  "Payments",
+        "question":  "What are the fees for enrollment withdrawal?",
+        "answer":  "Enrollment withdrawal within the first week is charged 10% of full tuition and other fees; within the second week, 20%; after the second week, 100% of full tuition and other fees. Complete withdrawal before classes start incurs only a nominal processing fee.",
+        "tags":  [
+                     "withdrawal",
+                     "fees",
+                     "tuition"
+                 ],
+        "description":  "Enrollment withdrawal within the first week is charged 10% of full tuition and other fees; within the second week, 20%; after the second week, 100% of full tuition and other fees."
+    },
+    {
+        "id":  "faq_039",
+        "category":  "Enrollment",
+        "question":  "When can I officially drop a course and how?",
+        "answer":  "Official dropping is allowed after the second week of classes until the working day before midterm. Itâ€™s not allowed during or after midterms, and dropping the entire load is generally not allowed except for meritorious reasons. Steps: secure a Load Revision Form, get Dean/Program Chair approval, pay the processing fee, and submit or email the form to the Registrar using the required email format.",
+        "tags":  [
+                     "official dropping",
+                     "load revision",
+                     "deadlines"
+                 ],
+        "description":  "Official dropping is allowed after the second week of classes until the working day before midterm."
+    },
+    {
+        "id":  "faq_040",
+        "category":  "Payments",
+        "question":  "How can I pay tuition and fees? Are installments allowed?",
+        "answer":  "You may pay in full or by installment. Full payment before the first day of classes gets a 10% discount. Installment plans are available with a minimum initial payment of Php 6,100.00; late installment payments incur a Php 200.00 penalty per month.",
+        "tags":  [
+                     "payment",
+                     "installment",
+                     "discount"
+                 ],
+        "description":  "You may pay in full or by installment."
+    },
+    {
+        "id":  "faq_041",
+        "category":  "Payments",
+        "question":  "What payment channels are preferred or discouraged?",
+        "answer":  "Preferred channels: NUIS Online Payment Facility (Paynamics, Maya, Payrex) for payments of at least Php 500, NU Cashier for cash/check payments, and SM Bills Payment Center. Discouraged channels (hard to verify): online bank transfer, credit card online payment, ATM payment, GCash/eâ€‘wallets, and payment centers like Cebuana or Western Union.",
+        "tags":  [
+                     "payment channels",
+                     "nuis",
+                     "cashier"
+                 ],
+        "description":  "Preferred channels: NUIS Online Payment Facility (Paynamics, Maya, Payrex) for payments of at least Php 500, NU Cashier for cash/check payments, and SM Bills Payment Center."
+    },
+    {
+        "id":  "faq_042",
+        "category":  "Payments",
+        "question":  "What is the refund policy for official dropping or withdrawal?",
+        "answer":  "Refunds or credit adjustments are allowed when a class is dissolved, a course already passed is enrolled, or a drop is due to schedule conflict. For official dropping or withdrawal: within the first week, refund/credit minus 10% of total assessment plus registration and ID fees; during the second week, refund/credit minus 20% plus registration and ID fees; two weeks after classes start, no refund and full charges apply. Refund applications must be filed within the same term.",
+        "tags":  [
+                     "refund",
+                     "credit adjustment",
+                     "dropping"
+                 ],
+        "description":  "Refunds or credit adjustments are allowed when a class is dissolved, a course already passed is enrolled, or a drop is due to schedule conflict."
+    },
+    {
+        "id":  "faq_043",
+        "category":  "Student Account",
+        "question":  "What is the NUIS Student Ledger?",
+        "answer":  "The NUIS Student Ledger provides a realâ€‘time statement of charges and credits per term. It summarizes tuition payments and any additional charges from colleges or departments and can be generated anytime.",
+        "tags":  [
+                     "nuis",
+                     "student ledger",
+                     "billing"
+                 ],
+        "description":  "The NUIS Student Ledger provides a realâ€‘time statement of charges and credits per term."
+    },
+    {
+        "id":  "faq_044",
+        "category":  "Data Privacy",
+        "question":  "How does NU protect my personal data and how can I contact the Data Privacy Office?",
+        "answer":  "NU follows the Data Privacy Act of 2012 and processes personal data for legitimate academic purposes only. Data is stored securely, access is limited to authorized personnel, and you can request updates or corrections. For privacy concerns, contact the NU Baliwag Data Privacy Office at cop@nu-baliwag.edu.ph or the NU Data Protection Office at dpo@national-u.edu.ph.",
+        "tags":  [
+                     "data privacy",
+                     "dpo",
+                     "personal data"
+                 ],
+        "description":  "NU follows the Data Privacy Act of 2012 and processes personal data for legitimate academic purposes only."
+    },
+    {
+        "id":  "faq_045",
+        "category":  "Academic",
+        "question":  "What are the Deanâ€™s Honors List requirements?",
+        "answer":  "You must have a Term GWA of at least 3.25 (3.50+ for First Honors, 3.25â€“3.49 for Second Honors), carry at least 12 units unless otherwise specified, have no final grade below 2.5, and have no F/R/0.0/Dr/Inc grades. Students found guilty of academic dishonesty are disqualified.",
+        "tags":  [
+                     "honors",
+                     "dean\u0027s list",
+                     "gwa"
+                 ],
+        "description":  "You must have a Term GWA of at least 3.25 (3.50+ for First Honors, 3.25â€“3.49 for Second Honors), carry at least 12 units unless otherwise specified, have no final grade below 2.5, and have no F/R/0.0/Dr/Inc grades."
+    },
+    {
+        "id":  "faq_046",
+        "category":  "Graduation",
+        "question":  "What are the basic graduation requirements and steps?",
+        "answer":  "Graduation requires completion of all academic requirements, submission of original admission credentials, clearance of academic/nonâ€‘academic issues, and completion of the NUIS Online Application for Graduation. Students must also attend required orientations, rehearsals, photo/toga activities, and commencement exercises as scheduled by the Registrar.",
+        "tags":  [
+                     "graduation",
+                     "requirements",
+                     "registrar"
+                 ],
+        "description":  "Graduation requires completion of all academic requirements, submission of original admission credentials, clearance of academic/nonâ€‘academic issues, and completion of the NUIS Online Application for Graduation."
+    }
+]
